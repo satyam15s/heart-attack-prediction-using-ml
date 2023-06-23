@@ -1,3 +1,19 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/main.html" }]
+  "routes": [
+    {
+      "src": "/main.html",
+      "dest": "/main.html"
+    },
+    {
+      "src": "/result.html",
+      "dest": "/result.html"
+    },
+    {
+      "src": "/",
+      "status": 302,
+      "headers": {
+        "Location": "/main.html"
+      }
+    }
+  ]
 }
