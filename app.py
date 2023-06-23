@@ -30,7 +30,7 @@ def predict():
         thalach = int(request.form['thalach'])
         exang = request.form.get('exang')
        
-        caa = int(request.form['ca'])
+        caa = int(request.form['caa'])
         
         
         data = np.array([[age,sex,cp,trtbps,chol,fbs,restecg,thalach,exang,caa]])
