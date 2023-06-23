@@ -2,13 +2,8 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/main.html"
+      "dest": "/."
     }
   ]
-   "routes": [
-    {
-      "src": "/(main.html)",
-      "dest": "/result.html"
-    }
-  ]
+ 
 }
